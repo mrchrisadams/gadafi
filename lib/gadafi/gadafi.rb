@@ -1,9 +1,11 @@
+require 'rest-client'
+
 module Gadafi
 
   class Gadafi
     
       def short_url url
-        ## restclient.get(prefix  + url)
+        RestClient.get("http://gadaf.fi/api.php?url=#{url}")
       end
 
   end
