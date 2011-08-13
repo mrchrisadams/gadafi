@@ -1,4 +1,6 @@
 require 'minitest/autorun'
+require 'gadafi/gadafi'
+
 
 describe Gadafi::Gadafi do
 
