@@ -9,8 +9,8 @@ Gem::Specification.new do |s|
   s.authors     = ["Chris Adams"]
   s.email       = ["wave@chrisadams.me.uk"]
   s.homepage    = "chrisdams.me.uk"
-  s.summary     = %q{A simple wrapper for the gadaf.fi url shorterning service}
-  s.description = %q{TODO: Write a gem description}
+  s.summary     = %q{A simple wrapper for the gadaf.fi url shortening service.}
+  s.description = %q{This gem was written largely to get familiar with aruba, and minitest, bundler and thor when making gems with a CLI}
 
   s.rubyforge_project = "gadafi"
 
