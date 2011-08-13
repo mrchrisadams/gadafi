@@ -1,0 +1,3 @@
+module Gadafi
+  # Your code goes here...
+end
