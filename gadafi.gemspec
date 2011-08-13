@@ -6,10 +6,10 @@ Gem::Specification.new do |s|
   s.name        = "gadafi"
   s.version     = Gadafi::VERSION
   s.platform    = Gem::Platform::RUBY
-  s.authors     = ["TODO: Write your name"]
-  s.email       = ["TODO: Write your email address"]
-  s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
+  s.authors     = ["Chris Adams"]
+  s.email       = ["wave@chrisadams.me.uk"]
+  s.homepage    = "chrisdams.me.uk"
+  s.summary     = %q{A simple wrapper for the gadaf.fi url shorterning service}
   s.description = %q{TODO: Write a gem description}
 
   s.rubyforge_project = "gadafi"
@@ -18,4 +18,5 @@ Gem::Specification.new do |s|
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ["lib"]
+  s.add_development_dependency "minitest"
 end
