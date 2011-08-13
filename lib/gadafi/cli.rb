@@ -1,3 +1,11 @@
-require 'gadafi/cli'
+require 'thor'
 
-Gadafi::CLI.start
+module Gadafi
+
+  class CLI < Thor
+
+  end
+
+end
+
+
