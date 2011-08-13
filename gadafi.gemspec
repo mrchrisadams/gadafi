@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Chris Adams"]
   s.email       = ["wave@chrisadams.me.uk"]
-  s.homepage    = "chrisdams.me.uk"
+  s.homepage    = "http://chrisdams.me.uk"
   s.summary     = %q{A simple wrapper for the gadaf.fi url shortening service.}
   s.description = %q{This gem was written largely to get familiar with aruba, and minitest, bundler and thor when making gems with a CLI}
 
